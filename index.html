@@ -588,7 +588,9 @@
             .cta-buttons {
                 justify-content: center;
             }
-            .about-grid { grid-template-columns: 1fr; }
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
             .cta-buttons { flex-direction: column; }
             h2 { font-size: 2rem; }
         }
@@ -647,33 +649,42 @@
     </section>
     
     <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <div class="about-grid">
-                <div>
-                    <p class="summary-text" id="summary"></p>
+        <section id="about" class="about-section">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <p class="about-intro" id="summary"></p>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">17+</div>
+                    <div class="stat-label">Years Experience</div>
                 </div>
-                <div class="achievements" id="achievements"></div>
+                <div class="stat-card">
+                    <div class="stat-number">800+</div>
+                    <div class="stat-label">Team Members Managed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Applications Migrated</div>
+                </div>
             </div>
         </section>
         
         <section id="experience">
-            <h2>Professional Experience</h2>
+            <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
             <div id="experienceList"></div>
         </section>
         
         <section id="skills">
-            <h2>Skills & Expertise</h2>
+            <h2><i class="fas fa-code"></i> Skills & Expertise</h2>
             <div class="skills-grid" id="skillsGrid"></div>
         </section>
         
         <section id="education">
-            <h2>Education & Certifications</h2>
+            <h2><i class="fas fa-graduation-cap"></i> Education & Certifications</h2>
             <div class="education-grid" id="educationList"></div>
         </section>
         
         <section id="contact">
-            <h2>Get In Touch</h2>
+            <h2><i class="fas fa-envelope"></i> Get In Touch</h2>
             <div class="contact-grid" id="contactInfo"></div>
         </section>
     </div>
@@ -760,15 +771,6 @@
             
             // Summary
             document.getElementById('summary').textContent = data.summary;
-            
-            // Achievements
-            const achievementsContainer = document.getElementById('achievements');
-            achievementsContainer.innerHTML = data.keyAchievements.map(achievement => 
-                `<div class="achievement-item">
-                    <i class="fas fa-check-circle"></i>
-                    <p>${achievement}</p>
-                </div>`
-            ).join('');
             
             // Experience
             const experienceList = document.getElementById('experienceList');
