@@ -1,0 +1,143 @@
+{
+  "personal": {
+    "name": "Rohit Sharma",
+    "title": "Solution Architect & IT Leader",
+    "tagline": "Strategic IT leader with 17+ years of expertise in Solution Architecture, Cloud Transformation and Enterprise IT delivery",
+    "location": "Gurgaon, India",
+    "email": "rohitsharma19@gmail.com",
+    "phone": "+91-9711440897",
+    "social": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rhtsh",
+        "icon": "fab fa-linkedin"
+      },
+      {
+        "platform": "Email",
+        "url": "mailto:rohitsharma19@gmail.com",
+        "icon": "fas fa-envelope"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/rohitsharma",
+        "icon": "fab fa-github"
+      },
+      {
+        "platform": "Phone",
+        "url": "tel:+919711440897",
+        "icon": "fas fa-phone"
+      }
+    ]
+  },
+  "summary": "Strategic IT leader with 17+ years of expertise in Solution Architecture, Cloud Transformation and Enterprise IT delivery across banking, telecom, and logistics domains. Proven ability to architect scalable solutions, drive digital modernization, and lead cross-functional Agile teams. Adept at aligning IT initiatives with business goals, contributing to multimillion-dollar pre-sales pursuits, and delivering measurable operational improvements. Proficient in Azure, microservices, Kubernetes, and DevOps practices.",
+  "keyAchievements": [
+    "Reduced average incident resolution time by 16% in 5 months",
+    "Successfully transitioned 200+ applications from IBM to TCS with zero critical incidents",
+    "Recognized with 'Star of the Quarter' for exceptional contribution to enterprise architecture delivery",
+    "Reduced platform downtime by 30% through high-availability cloud solutions",
+    "Automated workflows leading to 40% reduction in manual ticket handling"
+  ],
+  "experience": [
+    {
+      "position": "Consultant / Technical Project Manager",
+      "company": "Tata Consultancy Services",
+      "location": "Gurugram, India",
+      "duration": "Jul 2019 - Present",
+      "responsibilities": [
+        "Part of a 5-member architecture board overseeing an account of 800+ resources",
+        "Collaborated with customers' architects for design discussions, ensuring alignment with business requirements and technical feasibility",
+        "Reduced platform downtime by 30% by architecting high-availability cloud-native solutions",
+        "Defined and implemented cloud migration strategies using Azure aligning with the 6 R's framework",
+        "Acted as a trusted advisor, conducting architecture workshops and aligning technical solutions with business goals",
+        "Defined and structured SLAs (Gold/Silver/Bronze tiers) based on application criticality and KPIs such as Mean Time to Resolve (MTTR)",
+        "Automated operational workflows, leading to a 40% reduction in manual ticket handling",
+        "Spearheaded Agile adoption across teams; mentored junior talent and introduced OKRs",
+        "Improved problem resolution efficiency using 5 Whys and RCA templates, reducing repeat incidents by 18%"
+      ]
+    },
+    {
+      "position": "Presales Solution Architect",
+      "company": "Tata Consultancy Services",
+      "location": "Gurugram, India",
+      "duration": "Nov 2018 - Jun 2019",
+      "responsibilities": [
+        "Delivered 10+ presales proposals to major UK/EU telecom clients, defining technical scope, cost models, and delivery roadmaps",
+        "Led RFx bids in collaboration with sales and delivery teams, effectively positioning solutions to partners, vendors, and prospects",
+        "Supported digital transformation initiatives, including Field Force Management and CPQ automation",
+        "Designed solution architectures, estimated effort, and developed strategic delivery plans aligned with client needs",
+        "Co-created capability decks and go-to-market offerings with the sales team to drive new business"
+      ]
+    },
+    {
+      "position": "Technical Architect",
+      "company": "Tata Consultancy Services",
+      "location": "Gurugram, India",
+      "duration": "Jul 2015 - Oct 2018",
+      "responsibilities": [
+        "Led a team of 8 engineers in designing and developing complex software solutions in a fast-paced, agile environment",
+        "Supported multiple RFXs, contributing to solutions for Mobility, Field Force Management Systems, and HOBS CPQ products",
+        "Built an omnichannel front-office transformation use case showcased at Mobile World Congress 2018",
+        "Led POC that helped secure strategic digital transformation using AngularJS with headless CMS (Drupal)"
+      ]
+    },
+    {
+      "position": "Development Lead / Product Specialist",
+      "company": "Tata Consultancy Services",
+      "location": "Bournemouth, UK",
+      "duration": "Jul 2012 - Jun 2015",
+      "responsibilities": [
+        "Managed 20-member team overseeing project planning, design, development, delivery, and UAT",
+        "Enhanced product performance by 18% within 6 months by collaborating with TCS Performance Labs",
+        "Acted as the primary client liaison for gathering interface requirements and conducting gap analysis",
+        "Increased CSI by 7% by standardizing interface templates and enhancing reusability"
+      ]
+    },
+    {
+      "position": "Module Lead",
+      "company": "Tata Consultancy Services",
+      "location": "Gurugram, India",
+      "duration": "Nov 2011 - Jun 2012",
+      "responsibilities": [
+        "Led module development and delivery for enterprise applications",
+        "Coordinated with cross-functional teams to ensure timely project completion",
+        "Implemented best practices for code quality and performance optimization"
+      ]
+    },
+    {
+      "position": "Application Developer",
+      "company": "Tata Consultancy Services",
+      "location": "Gurugram, India",
+      "duration": "Nov 2007 - Nov 2011",
+      "responsibilities": [
+        "Developed and maintained enterprise applications using Java and related technologies",
+        "Participated in full software development lifecycle from requirements to deployment",
+        "Collaborated with senior developers to implement scalable solutions"
+      ]
+    }
+  ],
+  "skills": {
+    "Solution Architecture": ["Cloud Architecture", "Microservices", "Event-Driven Architecture", "High Availability Design"],
+    "Cloud & Infrastructure": ["Azure", "Cosmos DB", "Kubernetes", "Docker"],
+    "DevOps & Tools": ["CI/CD", "Git", "Jira", "Confluence", "ServiceNow", "Fortify"],
+    "Programming & Development": ["Java", "Spring Boot", "REST APIs", "Angular", "HTML5", "JavaScript"],
+    "Methodologies": ["Agile", "Scrum", "Kanban", "ITIL"],
+    "Leadership & Management": ["Team Leadership", "Stakeholder Management", "Pre-sales", "RFP/RFI", "Delivery Governance"]
+  },
+  "education": [
+    {
+      "degree": "Master of Computer Applications",
+      "institution": "Guru Gobind Singh Indraprastha University",
+      "location": "Delhi, India",
+      "year": "Jun 2007"
+    },
+    {
+      "degree": "Bachelor of Computer Applications",
+      "institution": "Guru Gobind Singh Indraprastha University",
+      "location": "Delhi, India",
+      "year": "Jun 2004"
+    }
+  ],
+  "certifications": [
+    "Certified Tata Scrum Master"
+  ]
+}
